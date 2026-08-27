@@ -1,0 +1,15 @@
+customer_id,customer_name,interaction_text,issue_count_30d,payment_status,failed_payments_30d,usage_change_pct,csat_score,last_contact_days
+CUST-001,Alpha Retail,Cancel my enterprise subscription immediately. Your billing charged us twice and nobody answered ticket #4910.,4,failed,2,-55.0,1,1
+CUST-002,Beta Logistics,Our API sync failed during peak hours. If this is not resolved today we will evaluate other vendors before renewal.,3,overdue,1,-35.0,2,2
+CUST-003,Gamma Analytics,We noticed our team usage dropped because the reporting module is sluggish after the latest patch.,2,current,0,-48.0,2,5
+CUST-004,Delta Cloud,Unexpected overage fee on invoice #8812. Please reverse this charge before end of month.,1,overdue,0,-10.0,3,3
+CUST-005,Epsilon Labs,The new single sign-on feature is working perfectly. Our team is very happy with the update.,0,current,0,15.0,5,14
+CUST-006,Zeta Health,Routine compliance audit check: where can we download SOC2 reports for our records?,0,current,0,2.0,4,20
+CUST-007,Eta Robotics,We had 3 outages this week. Fix this immediately or connect me to your VP of Support.,4,failed,1,-60.0,1,0
+CUST-008,Theta Media,Onboarding was confusing and our store managers are struggling with dashboard adoption.,2,current,0,-22.0,3,7
+CUST-009,Iota Services,The platform is fine but we need custom webhooks for automated batch exports.,1,current,0,5.0,4,12
+CUST-010,Kappa Finance,We cannot accept recurring invoice errors. We are initiating contract termination next week.,2,failed,2,-40.0,1,1
+CUST-011,Lambda Games,Everything is running smoothly on our test environment. Thanks for the quick support.,0,current,0,8.0,5,25
+CUST-012,Mu Systems,Account usage has plummeted because half our staff cannot log in through Okta SSO.,3,current,0,-65.0,2,3
+CUST-013,Nu Ventures,Can we get an extension on our Net-30 invoice while our accounting department migrates banks?,0,overdue,0,-5.0,3,4
+CUST-014,Xi Commerce,Super fast response on our ticket earlier today. Really appreciate the dedicated support.,0,current,0,12.0,5,10

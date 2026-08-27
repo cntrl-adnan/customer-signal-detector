@@ -1,0 +1,26 @@
+version: "1.0"
+action_map_name: "action_map_v1"
+
+actions:
+  billing:
+    high_critical: "Route to billing support; notify retention owner for critical cases"
+    default: "Review invoice history and payment methods with account contact"
+
+  cancellation:
+    high_critical: "Retention escalation within one business day; engage account executive"
+    default: "Log cancellation inquiry and monitor account engagement"
+
+  support:
+    high_critical: "Assign customer-success owner; review unresolved interactions and open tickets"
+    default: "Verify support ticket response times and resolution status"
+
+  usage:
+    medium_high_critical: "Customer-success outreach to understand adoption drop and offer enablement"
+    default: "Monitor product telemetry trends over next 14 days"
+
+  product:
+    medium_high_critical: "Tag product issue; group similar reports for engineering and product review"
+    default: "Log feature request or minor bug report in tracking backlog"
+
+  other:
+    any: "Manual operations review"
