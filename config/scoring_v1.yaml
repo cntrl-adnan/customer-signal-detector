@@ -1,0 +1,43 @@
+version: "1.0"
+scoring_name: "scoring_v1"
+max_score: 100
+
+thresholds:
+  critical: 75
+  high: 50
+  medium: 25
+  low: 0
+
+points:
+  churn_intent: 25
+  urgency:
+    critical: 15
+    high: 10
+    medium: 5
+    low: 0
+  sentiment:
+    very_negative: 15
+    negative: 10
+    neutral: 0
+    positive: 0
+  payment_status:
+    failed: 15
+    overdue: 12
+    current: 0
+    unknown: 0
+  failed_payments_multiplier: 4
+  failed_payments_max_cap: 2
+  recent_issues_multiplier: 4
+  recent_issues_max_cap: 3
+  usage_decline:
+    severe_threshold: -50.0
+    severe_points: 15
+    moderate_threshold: -25.0
+    moderate_points: 10
+  csat:
+    very_low_threshold: 2
+    very_low_points: 10
+    low_threshold: 3
+    low_points: 5
+
+confidence_threshold: 0.60

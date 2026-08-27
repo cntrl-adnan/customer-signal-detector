@@ -1,0 +1,15 @@
+customer_id,expected_band,min_score,max_score,primary_contributor
+CUST-001,Critical,100,100,churn_intent
+CUST-002,Critical,100,100,churn_intent
+CUST-003,Medium,33,33,usage_decline
+CUST-004,Medium,41,41,payment_status
+CUST-005,Low,0,0,none
+CUST-006,Low,5,5,urgency
+CUST-007,Critical,76,76,payment_status
+CUST-008,Low,18,18,recent_issues
+CUST-009,Low,9,9,urgency
+CUST-010,Critical,100,100,churn_intent
+CUST-011,Low,0,0,none
+CUST-012,Medium,42,42,usage_decline
+CUST-013,Medium,37,37,payment_status
+CUST-014,Low,0,0,none
